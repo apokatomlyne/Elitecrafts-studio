@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Elitecrafts Studio</title>
+  <title>Elitecrafts Studio - Premium Visual Storytelling & Digital Solutions</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />"
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 </head>
 <body>
 
@@ -14,206 +16,574 @@
   <header class="main-header">
     <div class="container">
       <div class="logo">
-        <img src="Images\logo.1.jpg" alt="Elitecrafts Studio Logo" />
-        <span>Elitecrafts Studio</span>
+        <img src="logo.svg" alt="Elitecrafts Studio Logo" />
       </div>
       <nav class="navbar" id="navbar">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#blog">Blog</a></li>
+          <li><a href="#ceo">CEO</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
   </header>
 
-  
-<!-- Hero Section -->
-<section class="hero-section">
-  <div class="hero-overlay">
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-background">
+      <div class="hero-overlay"></div>
+      <div class="hero-particles"></div>
+    </div>
     <div class="hero-content">
-      <h1>We Craft. You Shine.</h1>
-      <p>Elite services in photography, videography, live coverage, and web design.</p>
-      <a href="#services" class="hero-btn">Explore Our Services</a>
-    </div>
-  </div>
-</section>
-
-<!-- Services Section -->
-<section class="services-section" id="services">
-  <div class="container">
-    <h2 class="section-title">Our Services</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <i class="fas fa-camera-retro service-icon"></i>
-        <h3>Photography</h3>
-        <p>Professional photography to capture every moment with style and precision.</p>
+      <div class="hero-badge">
+        <span>🎥</span>
+        <span>Premium Visual Storytelling</span>
       </div>
-      <div class="service-card">
-        <i class="fas fa-video service-icon"></i>
-        <h3>Videography</h3>
-        <p>Cinematic videos that tell stories, promote brands, or relive your best days.</p>
-      </div>
-      <div class="service-card">
-        <i class="fas fa-broadcast-tower service-icon"></i>
-        <h3>Broadcast Coverage</h3>
-        <p>Live stream and multi-cam coverage for events, weddings, and corporate functions.</p>
-      </div>
-      <div class="service-card">
-        <i class="fas fa-laptop-code service-icon"></i>
-        <h3>Website Design</h3>
-        <p>Modern, responsive websites that build your online presence professionally.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- About Section -->
-<section class="about-section" id="about">
-  <div class="container about-content">
-    <div class="about-text">
-      <h2>About Us</h2>
-      <p>
-        At <strong>Elitecrafts Studio</strong>, we combine creativity with technology to deliver exceptional digital and visual experiences. From capturing unforgettable moments to crafting sleek, modern websites — we are your all-in-one creative partner.
+      <h1 class="hero-title">
+        Transforming <span class="gradient-text">Moments</span> into 
+        <span class="gradient-text">Masterpieces</span>
+      </h1>
+      <p class="hero-subtitle">
+        We are Elitecrafts Studio — where engineering precision meets artistic vision. 
+        From cinematic videography to cutting-edge web design, we create experiences that captivate, inspire, and deliver results.
       </p>
-      <p>
-        Our mission is to help individuals and businesses express their identity, tell their stories, and leave a lasting impact through media and design. We are passionate, skilled, and ready to turn your vision into reality.
-      </p>
-      <a href="#contact" class="about-btn">Work With Us</a>
-    </div>
-    <div class="about-image">
-      <img src="https://images.unsplash.com/photo-1581092337408-1f6c5bdf73f5" alt="About Elitecrafts Team" />
-    </div>
-  </div>
-</section>
-
-<!-- Portfolio Section -->
-<section class="portfolio-section" id="portfolio">
-  <div class="container">
-    <h2 class="section-title">Our Work</h2>
-    <div class="portfolio-grid">
-      <div class="portfolio-item">
-        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Wedding Shoot" />
-        <div class="portfolio-overlay">
-          <h3>Wedding Photography</h3>
-          <p>Elegant shots from our recent wedding projects.</p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Events Covered</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">100+</span>
+          <span class="stat-label">Websites Built</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">99%</span>
+          <span class="stat-label">Client Satisfaction</span>
         </div>
       </div>
-
-      <div class="portfolio-item">
-        <img src="https://images.unsplash.com/photo-1581291518838-6cc0df40c9ad" alt="Studio Portrait" />
-        <div class="portfolio-overlay">
-          <h3>Studio Portrait</h3>
-          <p>Crisp lighting and detailed portraits for brands and individuals.</p>
-        </div>
-      </div>
-
-      <div class="portfolio-item">
-        <img src="https://images.unsplash.com/photo-1593642634367-d91a135587b5" alt="Website Design" />
-        <div class="portfolio-overlay">
-          <h3>Web Design Project</h3>
-          <p>Responsive, modern business websites for our clients.</p>
-        </div>
-      </div>
-
-      <div class="portfolio-item">
-        <img src="https://images.unsplash.com/photo-1581091215367-5c7b1e1d8f10" alt="Event Coverage" />
-        <div class="portfolio-overlay">
-          <h3>Live Event Coverage</h3>
-          <p>Multi-cam event broadcast with on-screen graphics.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- Blog Section -->
-<section class="blog-section" id="blog">
-  <div class="container">
-    <h2 class="section-title">From Our Blog</h2>
-    <div class="blog-grid">
-
-      <div class="blog-card">
-        <img src="https://images.unsplash.com/photo-1581090700227-1c72f0d6ac59" alt="Photography Tips">
-        <div class="blog-content">
-          <h3>5 Photography Tips for Perfect Lighting</h3>
-          <p>Learn how to master natural and studio lighting to take pro-level shots.</p>
-          <a href="#" class="blog-btn">Read More</a>
-        </div>
-      </div>
-
-      <div class="blog-card">
-        <img src="https://images.unsplash.com/photo-1581091012184-06b8f5ed17cf" alt="Event Coverage">
-        <div class="blog-content">
-          <h3>Behind the Scenes of a Live Event Broadcast</h3>
-          <p>A look into how we manage multi-cam setups and deliver flawless livestreams.</p>
-          <a href="#" class="blog-btn">Read More</a>
-        </div>
-      </div>
-
-      <div class="blog-card">
-        <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="Web Design Tips">
-        <div class="blog-content">
-          <h3>Why Every Brand Needs a Modern Website</h3>
-          <p>Top reasons your business should invest in a professional web presence.</p>
-          <a href="#" class="blog-btn">Read More</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- Contact Section -->
-<section class="contact-section" id="contact">
-  <div class="container contact-container">
-    <div class="contact-text">
-      <h2>Let's Connect</h2>
-      <p>Have a project, event, or idea? Reach out and let’s make it happen.</p>
-
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-
-      <div class="social-links">
-        <a href="https://instagram.com/yourhandle" target="_blank" rel="noopener" title="Instagram">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://facebook.com/yourhandle" target="_blank" rel="noopener" title="Facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-        <a href="https://wa.me/2547XXXXXXXX" target="_blank" rel="noopener" title="WhatsApp">
-          <i class="fab fa-whatsapp"></i>
+      <div class="hero-buttons">
+        <a href="#services" class="hero-btn primary">Explore Our Services</a>
+        <a href="#portfolio" class="hero-btn secondary">
+          <i class="fas fa-play"></i>
+          View Our Work
         </a>
       </div>
     </div>
-  </div>
-</section>
+    <div class="hero-scroll">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
 
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">Crafting Excellence Through Innovation</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-intro">
+            <strong>Elitecrafts Studio</strong> is a dynamic, modern creative agency dedicated to bringing visual stories to life and building impactful digital experiences. Founded with a passion for artistic excellence and digital innovation, we specialize in transforming businesses, brands, and personal moments into timeless digital experiences.
+          </p>
+          <div class="about-features">
+            <div class="feature-item">
+              <i class="fas fa-video"></i>
+              <div>
+                <h4>Live Event Videography</h4>
+                <p>Full HD video coverage from multiple angles, ensuring every speech, performance, and reaction is preserved with cinematic quality</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-camera"></i>
+              <div>
+                <h4>Professional Photography</h4>
+                <p>Creative shots, candid moments, portraits, and décor — all captured in high resolution with artistic flair.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-broadcast-tower"></i>
+              <div>
+                <h4>Live Streaming & Broadcast</h4>
+                <p>High-quality livestream services on YouTube, Facebook, and Instagram. Perfect for virtual or hybrid events.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-laptop-code"></i>
+              <div>
+                <h4>Website Design & Digital Branding</h4>
+                <p>Beautiful, responsive websites that represent your brand and engage users — from landing pages to full portfolios.</p>
+              </div>
+            </div>
+          </div>
+          <div class="mission-vision">
+            <div class="mission">
+              <h4>Our Mission</h4>
+              <p>To empower individuals, brands, and organizations with high-quality, affordable media and web solutions that elevate their stories and services.</p>
+            </div>
+            <div class="vision">
+              <h4>Our Vision</h4>
+              <p>To be a leading creative studio in Africa and beyond — transforming businesses, brands, and personal moments into timeless digital experiences.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1581092337408-1f6c5bdf73f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Elitecrafts Studio Team at Work" />
+          <div class="about-image-overlay">
+            <div class="overlay-content">
+              <h4>Professional Excellence</h4>
+              <p>High-end equipment & experienced technical crew</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- Footer Section -->
-<footer class="footer">
-  <div class="container footer-container">
-    <p>© 2025 Elitecrafts Studio. All rights reserved.</p>
-    <ul class="footer-nav">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#blog">Blog</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
-</footer>
+  <!-- CEO Section -->
+  <section class="ceo-section" id="ceo">
+    <div class="container">
+      <div class="ceo-content">
+        <div class="ceo-image">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Mike Kitonyi - CEO of Elitecrafts Studio" />
+          <div class="ceo-badge">
+            <span>CEO & Founder</span>
+          </div>
+        </div>
+        <div class="ceo-text">
+          <div class="section-header">
+            <span class="section-tag">Leadership</span>
+            <h2 class="section-title">Meet Mike Kitonyi</h2>
+            <p class="section-subtitle">Passionate Engineer & Visionary CEO</p>
+          </div>
+          <div class="ceo-description">
+            <p>
+              Mike Kitonyi is a passionate engineer and the visionary CEO of Elitecrafts Studio. With a strong foundation in technical excellence and creative storytelling, he brings a unique blend of precision and artistry to the world of photography and videography.
+            </p>
+            <p>
+              As both an innovator and visual storyteller, Mike uses his engineering mindset to lead with structure, clarity, and vision—ensuring every project is delivered with excellence. His mission is to turn everyday moments into timeless memories while inspiring creativity in others.
+            </p>
+          </div>
+          <div class="ceo-qualities">
+            <div class="quality-item">
+              <i class="fas fa-cogs"></i>
+              <span>Technical Excellence</span>
+            </div>
+            <div class="quality-item">
+              <i class="fas fa-eye"></i>
+              <span>Creative Vision</span>
+            </div>
+            <div class="quality-item">
+              <i class="fas fa-users"></i>
+              <span>Leadership</span>
+            </div>
+            <div class="quality-item">
+              <i class="fas fa-heart"></i>
+              <span>Passion for Innovation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Services Section -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Complete Creative Solutions</h2>
+        <p class="section-subtitle">From concept to completion, we deliver excellence across all creative disciplines</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card featured">
+          <div class="service-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3>Live Event Videography</h3>
+          <p>Full HD video coverage from multiple angles, ensuring every speech, performance, and reaction is preserved with cinematic quality.</p>
+          <ul class="service-features">
+            <li>Multi-camera setup</li>
+            <li>Professional lighting</li>
+            <li>Real-time editing</li>
+            <li>Cinematic quality</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-camera"></i>
+          </div>
+          <h3>Professional Photography</h3>
+          <p>Creative shots, candid moments, portraits, and décor — all captured in high resolution with artistic flair.</p>
+          <ul class="service-features">
+            <li>High-resolution images</li>
+            <li>Creative compositions</li>
+            <li>Professional editing</li>
+            <li>Fast delivery</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-broadcast-tower"></i>
+          </div>
+          <h3>Live Streaming & Broadcast</h3>
+          <p>High-quality livestream services on YouTube, Facebook, and Instagram. Perfect for virtual or hybrid events.</p>
+          <ul class="service-features">
+            <li>Multi-platform streaming</li>
+            <li>HD quality broadcast</li>
+            <li>Real-time interaction</li>
+            <li>Technical support</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-edit"></i>
+          </div>
+          <h3>Post-Production Services</h3>
+          <p>Professionally edited videos, highlight reels, photo albums, and social media content — delivered on time.</p>
+          <ul class="service-features">
+            <li>Professional editing</li>
+            <li>Color correction</li>
+            <li>Sound design</li>
+            <li>Custom graphics</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Website Design & Digital Branding</h3>
+          <p>Beautiful, responsive websites that represent your brand and engage users — from landing pages to full portfolios.</p>
+          <ul class="service-features">
+            <li>Responsive design</li>
+            <li>SEO optimization</li>
+            <li>Brand integration</li>
+            <li>CMS solutions</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <h3>Event Management</h3>
+          <p>Complete event coordination with technical crew, ensuring seamless execution from start to finish.</p>
+          <ul class="service-features">
+            <li>Event planning</li>
+            <li>Technical coordination</li>
+            <li>Equipment management</li>
+            <li>On-site support</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="event-types">
+        <h3>We Cover All Event Types</h3>
+        <div class="event-tags">
+          <span class="event-tag">Weddings</span>
+          <span class="event-tag">Conferences & Seminars</span>
+          <span class="event-tag">Birthday Parties</span>
+          <span class="event-tag">Religious Services</span>
+          <span class="event-tag">Product Launches</span>
+          <span class="event-tag">Graduation Ceremonies</span>
+          <span class="event-tag">Corporate Events</span>
+          <span class="event-tag">Festivals & Shows</span>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Portfolio Section -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Our Creative Work</h2>
+        <p class="section-subtitle">Showcasing excellence across photography, videography, and digital design</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Elegant Wedding Photography" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>Elegant Wedding Photography</h3>
+              <p>Capturing love stories with artistic precision and emotional depth</p>
+              <div class="portfolio-tags">
+                <span>Photography</span>
+                <span>Wedding</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Corporate Event Coverage" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>Corporate Event Coverage</h3>
+              <p>Professional documentation of business events and conferences</p>
+              <div class="portfolio-tags">
+                <span>Videography</span>
+                <span>Corporate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Modern Website Design" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>Modern Website Design</h3>
+              <p>Responsive, user-friendly websites that convert visitors to customers</p>
+              <div class="portfolio-tags">
+                <span>Web Design</span>
+                <span>Digital</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Live Event Streaming" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>Live Event Streaming</h3>
+              <p>High-quality broadcasts reaching global audiences in real-time</p>
+              <div class="portfolio-tags">
+                <span>Streaming</span>
+                <span>Live</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Creative Portrait Session" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>Creative Portrait Session</h3>
+              <p>Professional headshots and creative portraits for personal branding</p>
+              <div class="portfolio-tags">
+                <span>Photography</span>
+                <span>Portrait</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item">
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Concert and Festival Coverage" />
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>Concert & Festival Coverage</h3>
+              <p>Dynamic coverage of live performances and entertainment events</p>
+              <div class="portfolio-tags">
+                <span>Events</span>
+                <span>Music</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="why-choose-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">Excellence in Every Detail</h2>
+      </div>
+      <div class="why-choose-grid">
+        <div class="why-choose-item">
+          <div class="why-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h4>Experienced Professionals</h4>
+          <p>Years of experience across various event types and industries</p>
+        </div>
+        <div class="why-choose-item">
+          <div class="why-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h4>High-End Equipment</h4>
+          <p>State-of-the-art cameras, lighting, and audio equipment</p>
+        </div>
+        <div class="why-choose-item">
+          <div class="why-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h4>Fast Turnaround</h4>
+          <p>Quick delivery without compromising on quality</p>
+        </div>
+        <div class="why-choose-item">
+          <div class="why-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h4>Creative Storytelling</h4>
+          <p>Artistic approach to visual storytelling and brand narratives</p>
+        </div>
+        <div class="why-choose-item">
+          <div class="why-icon">
+            <i class="fas fa-dollar-sign"></i>
+          </div>
+          <h4>Affordable Packages</h4>
+          <p>Flexible pricing options to fit your budget</p>
+        </div>
+        <div class="why-choose-item">
+          <div class="why-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h4>Client-Focused Service</h4>
+          <p>Dedicated support and personalized attention</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="section-header">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title">Let's Create Something Amazing</h2>
+            <p class="section-subtitle">Ready to transform your vision into reality? Let's discuss your project and bring your ideas to life.</p>
+          </div>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email Us</h4>
+                <p>hello@elitecrafts.studio</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Call Us</h4>
+                <p>+254 700 123 456</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Visit Us</h4>
+                <p>Nairobi, Kenya</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://instagram.com/elitecrafts" target="_blank" rel="noopener" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://facebook.com/elitecrafts" target="_blank" rel="noopener" title="Facebook">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://wa.me/254700123456" target="_blank" rel="noopener" title="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://youtube.com/elitecrafts" target="_blank" rel="noopener" title="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="contact-form-container">
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Your Phone" required>
+            </div>
+            <div class="form-group">
+              <select name="service" required>
+                <option value="">Select Service</option>
+                <option value="videography">Videography</option>
+                <option value="photography">Photography</option>
+                <option value="live-streaming">Live Streaming</option>
+                <option value="web-design">Web Design</option>
+                <option value="event-management">Event Management</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Tell us about your project..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img src="logo.svg" alt="Elitecrafts Studio Logo" class="footer-logo" />
+          <p>Transforming moments into masterpieces through creative excellence and technical innovation.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Videography</a></li>
+              <li><a href="#services">Photography</a></li>
+              <li><a href="#services">Live Streaming</a></li>
+              <li><a href="#services">Web Design</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#ceo">Meet the CEO</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">YouTube</a></li>
+              <li><a href="#">WhatsApp</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Elitecrafts Studio. All rights reserved. | Designed with ❤️ by Elitecrafts Studio</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>

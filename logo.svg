@@ -1,0 +1,35 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for logo mark -->
+  <circle cx="30" cy="30" r="25" fill="url(#gradient1)" stroke="url(#gradient2)" stroke-width="2"/>
+  
+  <!-- Camera/lens icon -->
+  <circle cx="30" cy="30" r="12" fill="none" stroke="white" stroke-width="2"/>
+  <circle cx="30" cy="30" r="6" fill="white"/>
+  <circle cx="30" cy="30" r="3" fill="url(#gradient1)"/>
+  
+  <!-- Lens flare effect -->
+  <circle cx="35" cy="25" r="1.5" fill="white" opacity="0.8"/>
+  
+  <!-- Company name -->
+  <text x="70" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#gradient2)">
+    Elitecrafts
+  </text>
+  <text x="70" y="42" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    STUDIO
+  </text>
+  
+  <!-- Decorative elements -->
+  <path d="M165 20 L175 25 L165 30 L175 35 L165 40" stroke="url(#gradient2)" stroke-width="2" fill="none"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
